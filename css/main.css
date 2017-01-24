@@ -129,6 +129,24 @@ h2{
   margin: 0 auto;
   padding: 15px 0 0 0;
 }
+hr {
+  width: 85px;
+}
+.columns{
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+}
+.column-1{
+  display: inline-block;
+  width: 135px;
+  margin-left: 0;
+}
+.column-2{
+  display: inline-block;
+  width: 135px;
+  margin-left: 15px;
+}
 footer{
   background-color: black;
   text-align: center;
