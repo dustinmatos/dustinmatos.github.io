@@ -55,9 +55,48 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+h1 {
+  text-align: center;
+  font-family: 'Rajdhani', sans-serif;
+  margin-top: 200px;
+  margin-bottom: 1px;
+  font-size: 50px;
+}
+h2{
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  margin: 0 0 5px 20px;
+}
+.landing {
+  background: url("img/1.jpg");
+  background-size: cover;
+  height: 100vh;
+  
+}
+.headnav ul {
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: rgb(0, 212, 255);
+  text-shadow: 0, 0, 2px #F00;
+  padding: none;
+  margin: 1px;
+  display: block;
 
-
-
+}
+.map {
+  width: 335px;
+  display: block;
+  margin: 0 auto;
+}
 
 
 
@@ -74,7 +113,11 @@ textarea {
    Media Queries
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
+@media only screen and (min-width: 600px) {
+
+}
+
+@media only screen and (min-width:1024px) {
 
 }
 
