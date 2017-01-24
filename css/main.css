@@ -55,8 +55,11 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/* ---TEXT INFO--- */
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 500;
+  margin-bottom: 0;
 }
 h1 {
   text-align: center;
@@ -70,12 +73,39 @@ h2{
   font-weight: 700;
   font-size: 30px;
   margin: 0 0 5px 20px;
+  text-shadow: 2px 2px 7px black;
+  color: rgb(0, 212, 255);
+  padding-top: 10px;
 }
+.h2-white{
+  text-shadow: 0 0 0 white;
+}
+.p-white {
+  margin: 15px 19px 10px 19px;
+  font-size: 18px;
+  color: white;
+  text-shadow: 2px 2px 7px black;
+  line-height: 25px;
+}
+.p-black {
+  margin: 15px 19px 10px 19px;
+}
+/* ---MAIN PAGE ELEMENTS--- */
 .landing {
   background: url("img/1.jpg");
   background-size: cover;
   height: 100vh;
-  
+}
+.logo{
+  margin: 200px 15px 2px 15px;
+  -webkit-filter: drop-shadow( 2px 2px 7px black );
+  -moz-filter: drop-shadow( 2px 2px 2px 7px #000 );
+}
+.exhibit {
+  background-image: url("img/3.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
 }
 .headnav ul {
   padding: 0px;
@@ -86,15 +116,22 @@ h2{
   font-weight: 700;
   font-size: 18px;
   color: rgb(0, 212, 255);
-  text-shadow: 0, 0, 2px #F00;
+  text-shadow: 2px 2px 7px black;
   padding: none;
   margin: 1px;
   display: block;
 
 }
+/* ---MAP AND CONTACT INFO/FOOTER--- */
 .map {
   width: 335px;
   display: block;
+  margin: 0 auto;
+  padding: 15px 0 0 0;
+}
+footer{
+  background-color: black;
+  text-align: center;
   margin: 0 auto;
 }
 
