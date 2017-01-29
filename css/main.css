@@ -95,6 +95,9 @@ h2{
   background: url("img/1.jpg");
   position: fixed;
   -webkit- background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center center;
+  background-attachment:fixed;
   height: 100vh;
 }
 .logo{
