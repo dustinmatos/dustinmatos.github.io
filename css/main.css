@@ -93,8 +93,7 @@ h2{
 /* ---MAIN PAGE ELEMENTS--- */
 .landing {
   background: url("img/1.jpg");
-  -webkit- background-size: cover;
-  -moz- background-size: 100vh;
+  background-size: 100% auto;
   height: 100vh;
 }
 .logo{
