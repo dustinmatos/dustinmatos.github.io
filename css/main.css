@@ -94,6 +94,7 @@ h2{
 .landing {
   background: url("img/1.jpg");
   -webkit- background-size: cover;
+  -moz- background-size: 100vh;
   height: 100vh;
 }
 .logo{
