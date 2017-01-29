@@ -93,7 +93,7 @@ h2{
 /* ---MAIN PAGE ELEMENTS--- */
 .landing {
   background: url("img/1.jpg");
-  background-size: cover;
+  -webkit- background-size: cover;
   height: 100vh;
 }
 .logo{
@@ -104,7 +104,7 @@ h2{
 .exhibit {
   background-image: url("img/3.jpg");
   background-position: center;
-  background-size: cover;
+  -webkit- background-size: cover;
   height: 100vh;
 }
 .headnav ul {
@@ -134,7 +134,7 @@ hr {
 }
 .columns{
   display: block;
-  width: 90%;
+  width: 330px;
   margin: 0 auto;
 }
 .column-1{
@@ -174,7 +174,6 @@ footer{
   background-color: black;
   text-align: center;
   margin: 0 auto;
-
 }
 
 
@@ -192,7 +191,21 @@ footer{
    Media Queries
    ========================================================================== */
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 585px) {
+/* ---TEXT INFO--- */
+.p-white {
+  font-size: 21px;
+  line-height: 30px;
+}
+
+/* ---MAIN PAGE ELEMENTS--- */
+
+
+/* ---MAP AND CONTACT INFO--- */
+
+
+/* ---TICKETS AND FOOTER--- */
+
 
 }
 
