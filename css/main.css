@@ -93,7 +93,6 @@ h2{
 /* ---MAIN PAGE ELEMENTS--- */
 .landing {
   background: url("img/1.jpg");
-  position: fixed;
   -webkit- background-size: cover;
   background-repeat:no-repeat;
   background-position: center center;
@@ -107,7 +106,6 @@ h2{
 }
 .exhibit {
   background-image: url("img/3.jpg");
-  position: fixed;
   background-position: center;
   -webkit- background-size: cover;
   height: 100vh;
