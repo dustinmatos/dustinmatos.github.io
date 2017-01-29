@@ -93,7 +93,7 @@ h2{
 /* ---MAIN PAGE ELEMENTS--- */
 .landing {
   background: url("img/1.jpg");
-  background-size: 100% auto;
+  background-size: cover;
   height: 100vh;
 }
 .logo{
@@ -193,24 +193,83 @@ footer{
 
 @media only screen and (min-width: 585px) {
 /* ---TEXT INFO--- */
+body {
+  font-size: 26px;
+}
+.headnav ul {
+  font-size: 27px;
+}
 .p-white {
   font-size: 21px;
   line-height: 30px;
+  margin-bottom: 2px;
+}
+h2 {
+  font-size: 38px;
 }
 
 /* ---MAIN PAGE ELEMENTS--- */
-
+.logo {
+  margin: 200px 40px 10px 40px;
+}
+.exhibit {
+  height: 80vh;
+}
+.p-black {
+  font-size: 21px;
+}
 
 /* ---MAP AND CONTACT INFO--- */
-
-
+.columns {
+  width: 500px;
+}
+.column-1 {
+  width: 230px;
+}
+.column-2 {
+  width: 230px;
+}
+.map {
+  width: 500px;
+}
+hr {
+  width: 150px;
+}
 /* ---TICKETS AND FOOTER--- */
 
 
 }
 
 @media only screen and (min-width:1024px) {
+/* ---TEXT INFO--- */
+.headnav ul {
+  font-size: 50px;
+}
+h2 {
+  font-size: 55px;
+}
+.p-white {
+  font-size: 31px;
+  line-height: 38px;
+  margin: 0 25px 0 25px;
+}
+.p-black {
+  font-size: 31px;
+}
 
+/* ---MAIN PAGE ELEMENTS--- */
+
+
+/* ---MAP AND CONTACT INFO--- */
+.map {
+  width: 600px;
+  height: 500px;
+}
+
+/* ---TICKETS AND FOOTER--- */
+footer.p-white {
+  margin: 0;
+}
 }
 
 @media print,
