@@ -94,9 +94,6 @@ h2{
 .landing {
   background: url("img/1.jpg");
   -webkit- background-size: cover;
-  background-repeat:no-repeat;
-  background-position: center center;
-  background-attachment:fixed;
   height: 100vh;
 }
 .logo{
